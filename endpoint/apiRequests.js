@@ -1,4 +1,3 @@
-// apiRequests.js
 import axios from 'axios';
 
 async function makeRequest(url) {
