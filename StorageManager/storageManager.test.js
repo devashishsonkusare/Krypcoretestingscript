@@ -18,7 +18,7 @@ describe('API Test', function () {
         try {
             // const filePath = '/home/rajdeep/Downloads/download.png';
 
-            const filePath = path.resolve(process.argv['FILE_PATH'] || '/home/rajdeep/Downloads/download.png');
+            const filePath = path.resolve(process.argv['FILE_PATH'] || '/download.png');
 
             data.append('files', fs.createReadStream(filePath));
 
