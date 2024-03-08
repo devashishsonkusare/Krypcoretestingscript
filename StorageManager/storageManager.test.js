@@ -123,6 +123,6 @@ describe('API Test', function () {
 
 
 
-///home/rajdeep/Downloads/monkey.jpg
+
 // npx mocha --experimental-modules StorageManager/storageManager.test.js
 // FILE_PATH='/download.png' npx mocha --experimental-modules StorageManager/storageManager.test.js
